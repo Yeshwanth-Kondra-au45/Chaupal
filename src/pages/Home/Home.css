@@ -1,0 +1,59 @@
+/*! Container styles here  */
+.left-container {
+	min-width: 10%;
+	bottom: 0;
+	z-index: 9;
+	width: 100%;
+}
+
+.right-container {
+	min-width: 25%;
+	right: 0;
+}
+
+/*! Header style here */
+.main-header {
+	height: 5rem;
+	background-color: var(--primary-bg-color);
+	border-color: var(--secondary-color);
+}
+
+/*! Navbar  */
+.navbar-link:hover {
+	transition: color 0.3s ease-in-out;
+	color: var(--primary-hover-color);
+}
+
+/* ! Content container here */
+.content-container {
+	margin-top: 5rem;
+}
+
+/*! Footer style here */
+footer {
+	border-color: var(--secondary-color);
+}
+
+.follow-card {
+	max-height: 25rem;
+	min-height: 20rem;
+}
+
+/*!  Media queries here */
+
+@media screen and (min-width: 768px) {
+	.mid-container {
+		margin-left: 25%;
+	}
+	.left-container {
+		bottom: initial;
+		width: initial;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.mid-container {
+		margin-right: 25%;
+		margin-left: 20%;
+	}
+}

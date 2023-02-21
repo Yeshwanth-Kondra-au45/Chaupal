@@ -9,7 +9,7 @@
 ## **How to install and run locally ?**
 
 ```
-$ git clone https://github.com/jeetsdev/chaupal
+$ git clone https://github.com/Yeshwanth-Kondra-au45/chaupal.git
 $ cd chaupal
 $ npm install
 $ npm start
